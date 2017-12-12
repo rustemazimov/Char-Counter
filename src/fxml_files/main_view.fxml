@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Controller: MainViewController(package: controllers)-->
+<!-- Fields:
+      inputTextArea: TextArea
+      resultsLabel: Label
+-->
+<!--Methods:
+      inputTextArea -onKeyReleased: handleInputTextChsangedAction
+-->
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="599.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainViewController">
+   <children>
+      <TextArea fx:id="inputTextArea" layoutX="14.0" layoutY="14.0" onKeyReleased="#handleInputTextChangedAction" prefHeight="200.0" prefWidth="573.0" promptText="Enter text here" />
+      <Label fx:id="resultsLabel" layoutX="13.0" layoutY="233.0" prefHeight="153.0" prefWidth="573.0" />
+   </children>
+</AnchorPane>

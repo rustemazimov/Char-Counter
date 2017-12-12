@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="Char Counter">
+    <output-path>$PROJECT_DIR$/out/artifacts/Char_Counter</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="views.Main" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="Char Counter" />
+        <option name="vendor" value="Romeo Application Factory" />
+        <option name="version" value="1.0.0" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="Char_Counter.jar">
+        <element id="module-output" name="Char Counter" />
+      </element>
+    </root>
+  </artifact>
+</component>
